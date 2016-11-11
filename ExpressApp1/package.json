@@ -13,8 +13,11 @@
     "jquery": "3.0.0-rc1",
     "angular": "1.6.0-rc.0",
     "angular-resource": "1.6.0-rc.0", 
-    "bootstrap": "4.0.0-alpha.5", 
-    "angular-route": "1.6.0-rc.0"
+    "bootstrap": "4.0.0-alpha.5",
+    "angular-route": "1.6.0-rc.0",
+    "mongoose": "4.6.7",
+    "mongodb": "2.2.11" 
+       
     
   }
 }

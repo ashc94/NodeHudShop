@@ -10,6 +10,9 @@ angular.module('app')
 
 angular.module('app')
     .controller('maincontroller',
-        function($scope) {
-            $scope.test = "Hello";
+    function ($scope, $http) {
+            $http.get("/api")
+                .then(function(data) {
+                    $scope.test = data.data;
+                });
         });

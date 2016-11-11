@@ -79,6 +79,8 @@
     <Folder Include="typings\globals\debug\" />
     <Folder Include="typings\globals\inherits\" />
     <Folder Include="typings\globals\jquery\" />
+    <Folder Include="typings\globals\mongodb\" />
+    <Folder Include="typings\globals\mongoose\" />
     <Folder Include="Views\" />
     <Folder Include="public\" />
     <Folder Include="public\fonts\" />
@@ -103,6 +105,8 @@
     <TypeScriptCompile Include="typings\globals\inherits\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\jade\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\jquery\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mongodb\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\mongoose\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\stylus\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
