@@ -23,10 +23,9 @@ db.once("open",
 var Result;
 db.collection('foo',
     function(err, collection) {
-        collection.find({ '_id': 1 },
-            function(error, result) {
-                Result = result;
-            });
+        collection.find(function(req,res) {
+            Result = res.data;
+        });
     });
 
 app.get('/',
